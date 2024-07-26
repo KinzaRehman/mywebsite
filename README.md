@@ -1,2 +1,2 @@
-# mywebsite
-Google sites provided and amazing tempalte for a portfolio website but there were some specifications that I wanted so this is just the adjustments for that 
+# Kinza_rehman_portfolio_website
+I used Google Sites for its simplicity and ease of creating a website. I appreciate its reproducibility and made a few adjustments and embedded codes mainly for aesthetics and cosmetics.
