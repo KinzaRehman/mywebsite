@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            position: relative;
+            width: 100%; /* Ensure the container fits the page width */
+            height: 100vh; /* Fixed height to fit the viewport height */
+            max-width: 100%; /* Limit width to page width */
+            overflow: hidden; /* Hide overflow to prevent scrolling */
+        }
+
+        .gif {
+            width: 100%; /* Ensure the GIF fits the container width */
+            height: 100%; /* Ensure the GIF fits the container height */
+            object-fit: cover; /* Cover the entire container */
+        }
+
+        .text {
+            position: absolute;
+            top: 50%; /* Center the text vertically */
+            left: 50%; /* Center the text horizontally */
+            transform: translate(-50%, -50%);
+            text-align: center; /* Center text alignment */
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 15px; /* Add padding */
+            border-radius: 5px; /* Optional: Rounded corners */
+            width: 80%; /* Adjust width of text box */
+            box-sizing: border-box; /* Include padding in width */
+            font-size: 1.5em; /* Enlarge all text by 1.5 times */
+        }
+
+        .name {
+            color: gold; /* Text color for name */
+            font-size: 1.5em; /* Enlarge font size */
+            font-weight: bold; /* Bold text */
+            margin-bottom: 10px; /* Space between the two lines */
+        }
+
+        .titles {
+            color: #d4af37; /* Lighter shade of gold */
+            font-size: 1em; /* Regular font size */
+            font-weight: normal; /* Regular font weight */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="INSET WHICH GIF YOU WANT TO USE AS THE BACKGROUND" class="gif" alt="Your GIF">
+        <div class="text">
+            <div class="name">WRITE YOUR NAME </div>
+            <div class="titles">WRITE YOUR TITLE r</div>
+        </
