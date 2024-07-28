@@ -43,13 +43,35 @@
             color: #d4af37; /* Lighter shade of gold */
             font-size: 1em; /* Regular font size */
             font-weight: normal; /* Regular font weight */
+            margin-bottom: 15px; /* Space between titles and button */
+        }
+
+        .resume-button {
+            display: inline-block; /* Align as an inline block */
+            padding: 10px 20px; /* Add padding */
+            background-color: #d4af37; /* Button background color */
+            color: white; /* Button text color */
+            text-decoration: none; /* Remove underline from link */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 1em; /* Regular font size */
+            font-weight: bold; /* Bold text */
+            transition: background-color 0.3s; /* Smooth background color transition */
+        }
+
+        .resume-button:hover {
+            background-color: #b89a3d; /* Darker shade on hover */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="INSET WHICH GIF YOU WANT TO USE AS THE BACKGROUND" class="gif" alt="Your GIF">
+        <img src="HTTPS YOUR GIF LINK HERE " class="gif" alt="Your GIF">
         <div class="text">
-            <div class="name">WRITE YOUR NAME </div>
-            <div class="titles">WRITE YOUR TITLE r</div>
-        </
+            <div class="name">INSERT YOUR NAME </div>
+            <div class="titles">INSERT YOUR TITLES </div>
+            <a href="Insert your resume link here " class="resume-button" target="_blank">Resume</a>
+        </div>
+    </div>
+</body>
+</html>
+
